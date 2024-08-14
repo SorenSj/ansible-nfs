@@ -1,0 +1,43 @@
+---
+galaxy_info:
+  author: Søren Sjøstrøm
+  description: your role description
+
+  # If the issue tracker for your role is not on github, uncomment the
+  # next line and provide a value
+  # issue_tracker_url: http://example.com/issue/tracker
+
+  license: MIT
+
+  min_ansible_version: 2.9
+
+  # If this a Container Enabled role, provide the minimum Ansible Container version.
+  # min_ansible_container_version:
+
+ platforms:
+    - name: EL
+      versions:
+        - 7
+        - 8
+        - 9
+    - name: Debian
+      versions:
+        - 9
+        - 10
+        - 11
+        - 12
+    - name: Ubuntu
+      versions:
+        - 16.04
+        - 18.04
+        - 20.04
+        - 22.04
+
+
+  galaxy_tags:
+    - nfs
+    - share
+    - nfs3
+    - nfs4
+
+dependencies: []
